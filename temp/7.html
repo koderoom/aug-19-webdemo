@@ -1,19 +1,16 @@
 <html>
     <head>
         <link rel="stylesheet" href="7.css">
+        <script src="7.js"></script>
     </head>
 
     <body>
         <div class="container">
-            <div style="margin-top:5px; display: grid; grid-template-columns: 40vw 10vw" >
-                <input class="todo-text" type="text" name="" id="">
-                <button class="todo-add">Add</button>
-            </div>
+            <input class="todo-text" type="text" name="" id="">
+            <button class="todo-add" onclick="add()">Add</button>
 
-            <div style="height: 50px; background: whitesmoke; display: grid; grid-template-columns: 40vw 10vw">
-                <div style="display: grid;align-content:center;">TASK</div>
-                <button>Del</button>
-            </div>
+            <div style="background: whitesmoke; display: grid; align-content: center;" >TASk</div>
+            <button class="todo-add" onclick="del(this)">DEL</button>
         </div>
     </body>
 </html>

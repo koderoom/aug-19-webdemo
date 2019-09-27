@@ -5,17 +5,20 @@ body {
 .container {
     display: grid;
     justify-content: center;
+    grid-template-columns: 40vw 10vw;
+    grid-auto-rows: 7vh;
 }
 
 .todo-text {
-    width: 40vw;
-    height: 7vh;
     border-radius: 20px;
-
     font-size: 1.5rem;
 }
 
 .todo-add {
-    height: 7vh;
     border-radius: 10px;
+}
+
+.task-container {
+    display: grid;
+    align-content: center;
 }
