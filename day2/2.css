@@ -1,0 +1,16 @@
+body {
+    margin: 0px;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+.beautify{
+    color : white;
+    font-family: monospace;
+    font-size: 5rem;
+}
