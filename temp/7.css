@@ -23,3 +23,7 @@ body {
     display: grid;
     align-content: center;
 }
+
+input:focus, button:focus {
+    outline: none;
+}

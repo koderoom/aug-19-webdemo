@@ -1,3 +1,9 @@
+document.addEventListener('keypress', (e)=> {
+    if(e.keyCode === 13) {
+        this.add();
+    }
+})
+
 var add = function() {
    const  ref = document.querySelector('.container');
 
