@@ -1,0 +1,21 @@
+body {
+    margin:0px;
+}
+
+.container {
+    display: grid;
+    justify-content: center;
+}
+
+.todo-text {
+    width: 40vw;
+    height: 7vh;
+    border-radius: 20px;
+
+    font-size: 1.5rem;
+}
+
+.todo-add {
+    height: 7vh;
+    border-radius: 10px;
+}
