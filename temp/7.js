@@ -11,8 +11,10 @@ var add = function() {
 
    const btnClone = btnRef.cloneNode(true);
 
-   ref.appendChild(taskClone);
-   ref.appendChild(btnClone);
+   // ref.appendChild(taskClone);
+   // ref.appendChild(btnClone);
+   ref.insertBefore(taskClone, taskRef);
+   ref.insertBefore(btnClone, taskRef);
 
    textRef.value = "";
 }
