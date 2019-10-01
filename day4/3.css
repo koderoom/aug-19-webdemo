@@ -1,0 +1,23 @@
+body {
+    margin: 0px;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+
+    background-image: url('https://picsum.photos/1450/1450');
+}
+
+.beautify1 {
+    font-size: 8rem;
+    font-weight: bolder;
+    color : white;
+}
+
+.beautify2 {
+    font-size: 2rem;
+    color : white;
+}
