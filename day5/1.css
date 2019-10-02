@@ -1,0 +1,12 @@
+body {
+    margin: 0px;
+}
+
+.container {
+   display: grid;
+   justify-content: center;
+   grid-template-columns: 40vw 10vw;
+   grid-auto-rows: 10vh;
+   row-gap: 5px;
+   column-gap: 5px;
+}
