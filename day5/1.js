@@ -52,3 +52,20 @@ function deleteElement() {
     blueBox.remove();
     orangeBox.remove();
 }
+
+function deleteElementUsingJQuery() {
+    let container = $('div');
+
+    let blueBox = container.children().first();
+    let orangeBox = container.children().first().next();
+
+    blueBox.remove();
+    orangeBox.remove();
+}
+
+
+function deleteElementUsingJQueryVer2() {
+    $('div').children().first().remove();
+    $('div').children().first().remove();
+
+}
