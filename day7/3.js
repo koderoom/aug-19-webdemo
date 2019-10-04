@@ -1,3 +1,9 @@
+window.addEventListener('keypress', function(e){
+    if (e.which === 13) {
+        addTask();
+    }
+});
+
 function addTask() {
     
     // clone of ref task block
@@ -16,5 +22,6 @@ function addTask() {
 }
 
 function deleteTask(taskRef) {
-
+    console.log(taskRef);
+    taskRef.parentElement.parentElement.parentElement.remove()
 }

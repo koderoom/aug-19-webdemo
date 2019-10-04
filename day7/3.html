@@ -19,7 +19,7 @@
     <div class="container-fluid">
 
         <!-- NAV ROW -->
-        <div class="row">
+        <div class="row sticky-top">
             <div class="col-12 h5 bg-dark text-light" style="height: 60px; display: grid; align-content: center;">
                 ToDo Book
             </div>
@@ -45,7 +45,7 @@
             <div class="col-12 col-md-6 bg-secondary rounded" style="height:90px; display: grid; align-content: center;">
                 <div class="row" style="padding:10px;">
                     <div class="col-10 text-light">Task 1</div>
-                    <input class="col-2 btn btn-danger" type="button" value="DEL TASK">
+                    <input onclick="deleteTask(this)" class="col-2 btn btn-danger" type="button" value="DEL">
                 </div>
             </div>
             <div class="col-3 d-none d-md-block"></div>
