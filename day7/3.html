@@ -1,0 +1,56 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="3.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="3.js"></script>
+    <script
+        src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+        crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="container-fluid">
+
+        <!-- NAV ROW -->
+        <div class="row">
+            <div class="col-12 h5 bg-dark text-light" style="height: 60px; display: grid; align-content: center;">
+                ToDo Book
+            </div>
+        </div>
+
+
+        <!-- INPUT ROW-->
+        <div class="row">
+            <div class="col-3 d-none d-md-block"></div>
+            <div class="col-12 col-md-6 bg-secondary rounded" style="height:100px; display:grid; align-content: center;">
+                <div class="row" style="padding:10px;">
+                    <input id="textId" class="col-10 form-control-lg" type="text">
+                    <input class="col-2 btn btn-secondary" type="button" value="Add" onclick="addTask();">
+                </div>
+            </div>
+            <div class="col-3 d-none d-md-block"></div>
+        </div>
+
+
+        <!-- TASK BLOCK -->
+        <div class="row mt-1 d-none">
+            <div class="col-3 d-none d-md-block"></div>
+            <div class="col-12 col-md-6 bg-secondary rounded" style="height:90px; display: grid; align-content: center;">
+                <div class="row" style="padding:10px;">
+                    <div class="col-10 text-light">Task 1</div>
+                    <input class="col-2 btn btn-danger" type="button" value="DEL TASK">
+                </div>
+            </div>
+            <div class="col-3 d-none d-md-block"></div>
+        </div>
+
+    </div>
+</body>
+</html>
