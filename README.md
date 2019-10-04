@@ -12,3 +12,4 @@ https://koderoom.github.io/aug-19
 * Checking method is properly Called.
 * Creating Error
 * Debugging.
+* Smart Suggestion
