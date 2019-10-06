@@ -37,9 +37,28 @@ body {
     animation: move 5s linear infinite;
 }
 
+.car {
+    position: absolute;
+    bottom: 10%;
+    left : 20%;
+    animation: suspension 1s linear infinite;
+}
+
 
 @keyframes move {
     100% {
         transform: translateX(-1000px);
+    }
+}
+
+@keyframes suspension {
+    100% {
+        transform: translateY(-1px);
+    }
+    50% {
+        transform: translateY(-2px);
+    }
+    0% {
+        transform: translateY(-1px);
     }
 }
