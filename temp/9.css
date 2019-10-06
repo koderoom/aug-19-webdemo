@@ -14,9 +14,32 @@ body {
 }
 
 .night {
+    position: relative;
     height: 80vh;
     width: 70vw;
 
     background-image: url('./assets/night.png');
     background-size: cover;
+    overflow: hidden;
+}
+
+.surface {
+    display: block;
+    height: 150px;
+    width: 200%;
+    background-image: url('./assets/surface.png');
+    background-repeat: repeat-x;
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    animation: move 5s linear infinite;
+}
+
+
+@keyframes move {
+    100% {
+        transform: translateX(-1000px);
+    }
 }
