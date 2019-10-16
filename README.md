@@ -1,15 +1,7 @@
-https://koderoom.github.io/aug-19
+https://jsonplaceholder.typicode.com/posts
 
-* Setup VSCODE
-* GO LIVE SERVER
-* CHANGE APPEARANCE
+https://jsonplaceholder.typicode.com/posts/1
 
-* NAMING CONVENTION
-* External CSS
-* External JS
-* Cross Check in Developer Console.
+https://jsonplaceholder.typicode.com/comments?postId=1
 
-* Checking method is properly Called.
-* Creating Error
-* Debugging.
-* Smart Suggestion
+https://www.google.com/
